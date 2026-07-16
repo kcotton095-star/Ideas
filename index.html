@@ -327,8 +327,8 @@
       padding: 5px 14px; border-radius: 20px; margin-bottom: 16px;
     }
     .pricing-grid {
-      display: grid; grid-template-columns: repeat(3, 1fr);
-      gap: 24px; align-items: stretch;
+      display: grid; grid-template-columns: repeat(2, 1fr);
+      gap: 24px; align-items: stretch; max-width: 760px; margin: 0 auto;
     }
     .price-card {
       border: 2px solid var(--gray-bdr); border-radius: 12px;
@@ -655,7 +655,7 @@
   <meta name="twitter:title" content="Plumbing Answering Service & Virtual Receptionist | Ascent Solutions Group" />
   <meta name="twitter:image" content="https://ascentsolutionsgroup.org/og-image.png" />
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"ProfessionalService","name":"Ascent Solutions Group","description":"AI-powered answering service and virtual receptionist for South Carolina plumbers. We answer calls during the day and after hours, capture caller details, flag emergencies, and send instant call summaries by text and email.","url":"https://ascentsolutionsgroup.org/","telephone":"+1-843-640-5084","email":"hello@ascentsolutionsgroup.org","image":"https://ascentsolutionsgroup.org/og-image.png","logo":"https://ascentsolutionsgroup.org/ASCENT_LOGO.svg","priceRange":"$149-$349","areaServed":{"@type":"State","name":"South Carolina"},"address":{"@type":"PostalAddress","addressRegion":"SC","addressCountry":"US"},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"}}
+  {"@context":"https://schema.org","@type":"ProfessionalService","name":"Ascent Solutions Group","description":"AI-powered answering service and virtual receptionist for South Carolina plumbers. We answer calls during the day and after hours, capture caller details, flag emergencies, and send instant call summaries by text and email.","url":"https://ascentsolutionsgroup.org/","telephone":"+1-843-640-5084","email":"hello@ascentsolutionsgroup.org","image":"https://ascentsolutionsgroup.org/og-image.png","logo":"https://ascentsolutionsgroup.org/ASCENT_LOGO.svg","priceRange":"$149-$299","areaServed":{"@type":"State","name":"South Carolina"},"address":{"@type":"PostalAddress","addressRegion":"SC","addressCountry":"US"},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"}}
   </script>
 </head>
 <body>
@@ -866,84 +866,61 @@
 <section class="pricing" id="pricing">
   <div class="container">
     <div class="pricing-header">
-      <span class="pricing-note">&#9989; No long-term contracts &nbsp;|&nbsp; Cancel anytime</span>
+      <span class="pricing-note">&#9733; Founding offer: free setup + rate locked 12 months &nbsp;|&nbsp; limited to our first SC plumbers</span>
       <p class="section-label">Transparent Pricing</p>
       <h2 class="section-title">Simple plans for every plumber</h2>
-      <p class="section-sub" style="margin:0 auto;">Starting at $149/month. One-time $99 setup fee on all plans. Flat monthly pricing — no overage fees and no per-minute billing surprises.</p>
+      <p class="section-sub" style="margin:0 auto;">One flat monthly price — no per-call fees, no overages, no surprises, whether we answer 5 calls or 50. No long-term contract, cancel anytime.</p>
     </div>
     <div class="pricing-grid">
 
-      <!-- STARTER -->
+      <!-- AFTER-HOURS -->
       <div class="price-card">
         <div class="price-card-header">
-          <div class="price-tier">Starter</div>
+          <div class="price-tier">After-Hours</div>
           <div class="price-amount"><sup>$</sup>149<sub>/mo</sub></div>
-          <div class="price-setup">+ $99 one-time setup</div>
+          <div class="price-setup">Flat rate &middot; free setup for founding clients</div>
         </div>
         <div class="price-body">
-          <div class="price-included">Up to 75 calls/month</div>
+          <div class="price-included">Nights, weekends &amp; holidays</div>
           <ul class="price-features">
-            <li><i class="fa fa-check"></i> 24/7 AI-powered call answering</li>
-            <li><i class="fa fa-check"></i> Emergency vs. Non-Emergency classification</li>
-            <li><i class="fa fa-check"></i> Instant SMS &amp; email call summary</li>
-            <li><i class="fa fa-check"></i> Google Sheets call log</li>
-            <li><i class="fa fa-check"></i> Custom greeting in your company name</li>
-            <li><i class="fa fa-check"></i> No long-term contracts</li>
+            <li><i class="fa fa-check"></i> AI answering in your company&rsquo;s name</li>
+            <li><i class="fa fa-check"></i> Every call flagged as priority &amp; summarized</li>
+            <li><i class="fa fa-check"></i> Instant SMS &amp; email call summaries</li>
+            <li><i class="fa fa-check"></i> Google Sheets lead log</li>
+            <li><i class="fa fa-check"></i> Custom greeting &amp; approved script</li>
+            <li><i class="fa fa-check"></i> Flat rate &mdash; no per-call fees, ever</li>
+            <li><i class="fa fa-check"></i> No long-term contract</li>
           </ul>
-          
           <a href="#enroll" class="price-cta">Get Started</a>
         </div>
       </div>
 
-      <!-- STANDARD (POPULAR) -->
+      <!-- 24/7 FULL COVERAGE (POPULAR) -->
       <div class="price-card popular">
         <div class="popular-badge">&#9733; Most Popular</div>
         <div class="price-card-header" style="background:#EBF2FF;">
-          <div class="price-tier">Standard</div>
-          <div class="price-amount"><sup>$</sup>249<sub>/mo</sub></div>
-          <div class="price-setup">+ $99 one-time setup</div>
+          <div class="price-tier">24/7 Full Coverage</div>
+          <div class="price-amount"><sup>$</sup>299<sub>/mo</sub></div>
+          <div class="price-setup">Flat rate &middot; free setup for founding clients</div>
         </div>
         <div class="price-body">
-          <div class="price-included">Up to 150 calls/month</div>
+          <div class="price-included">Round-the-clock &mdash; daytime overflow + after-hours</div>
           <ul class="price-features">
-            <li><i class="fa fa-check"></i> Everything in Starter</li>
-            <li><i class="fa fa-check"></i> Priority emergency routing</li>
-            <li><i class="fa fa-check"></i> Safety escalation script (gas, CO, fire)</li>
-            <li><i class="fa fa-check"></i> Active damage detection</li>
-            <li><i class="fa fa-check"></i> Weekly summary report</li>
-            <li><i class="fa fa-check"></i> Dedicated account setup call</li>
-          </ul>
-          
-          <a href="#enroll" class="price-cta">Get Started</a>
-        </div>
-      </div>
-
-      <!-- PRO -->
-      <div class="price-card">
-        <div class="price-card-header">
-          <div class="price-tier">Pro</div>
-          <div class="price-amount"><sup>$</sup>349<sub>/mo</sub></div>
-          <div class="price-setup">+ $99 one-time setup</div>
-        </div>
-        <div class="price-body">
-          <div class="price-included">Up to 300 calls/month</div>
-          <ul class="price-features">
-            <li><i class="fa fa-check"></i> Everything in Standard</li>
+            <li><i class="fa fa-check"></i> Everything in After-Hours, plus:</li>
+            <li><i class="fa fa-check"></i> Daytime overflow when you&rsquo;re on a job or the line</li>
+            <li><i class="fa fa-check"></i> Bilingual &mdash; English &amp; Spanish answering</li>
             <li><i class="fa fa-check"></i> Multi-contact routing (up to 3 numbers)</li>
-            <li><i class="fa fa-check"></i> Custom urgency rules for your business</li>
-            <li><i class="fa fa-check"></i> Caller confirmation text support</li>
-            <li><i class="fa fa-check"></i> Monthly performance review call</li>
-            <li><i class="fa fa-check"></i> Priority support response</li>
+            <li><i class="fa fa-check"></i> Safety escalation script (gas, CO, fire)</li>
+            <li><i class="fa fa-check"></i> Active damage detection &amp; weekly summary</li>
+            <li><i class="fa fa-check"></i> Flat rate &mdash; unlimited calls (fair use)</li>
           </ul>
-          
           <a href="#enroll" class="price-cta">Get Started</a>
         </div>
       </div>
     </div>
 
     <p class="pricing-disclaimer">
-      All plans cover nights, weekends, and holidays based on your approved schedule. The $99 setup fee covers your personal onboarding call, custom script configuration, and system testing before go-live.<br>
-      Need higher volume? <a href="mailto:hello@ascentsolutionsgroup.org" style="color:var(--blue);font-weight:600;">Contact us for a custom quote.</a>
+      Both plans cover the schedule you approve. Founding clients get setup free (normally $99) and their monthly rate locked for 12 months. Flat monthly pricing with a fair-use policy &mdash; no per-call charges and no overage bills. Need multiple locations or unusually high volume? <a href="mailto:hello@ascentsolutionsgroup.org" style="color:var(--blue);font-weight:600;">Contact us for a custom quote.</a>
     </p>
   </div>
 </section>
@@ -990,7 +967,7 @@
 <label>Your name <span>*</span><input type='text' name='owner_name' required /></label>
 <label>Email for call summaries <span>*</span><input type='email' name='email' required /></label>
 <label>Best callback number <span>*</span><input type='tel' name='callback_number' required /></label>
-<label>Plan<select name='plan'><option>Starter &mdash; $149/mo</option><option>Standard &mdash; $249/mo</option><option>Pro &mdash; $349/mo</option><option>Not sure yet</option></select></label>
+<label>Plan<select name='plan'><option>After-Hours &mdash; $149/mo</option><option>24/7 Full Coverage &mdash; $299/mo</option><option>Not sure yet</option></select></label>
 <label>After-hours coverage window<input type='text' name='coverage_window' placeholder='e.g. weeknights 6pm-8am + weekends' /></label>
 <fieldset class='sms-box'>
 <legend>Text message alerts &mdash; optional</legend>
@@ -1088,15 +1065,15 @@
       </div>
       <div class="faq-item">
         <button class="faq-question"><span>Is there a long-term contract?</span><i class="fa fa-chevron-down"></i></button>
-        <div class="faq-answer"><p>No long-term contracts. All plans are billed monthly and you can cancel at any time. The only one-time fee is the $99 setup fee, which covers your onboarding, script configuration, and system testing.</p></div>
+        <div class="faq-answer"><p>No long-term contracts. Both plans are billed monthly and you can cancel at any time. Setup is normally a one-time $99, but it is free for founding clients — and there are no per-call or overage charges.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-question"><span>Can I choose when you answer my calls?</span><i class="fa fa-chevron-down"></i></button>
         <div class="faq-answer"><p>Yes. During onboarding you set exactly when we answer — daytime overflow, after hours, nights, weekends, holidays, or any mix. We only answer according to your approved schedule.</p></div>
       </div>
       <div class="faq-item">
-        <button class="faq-question"><span>What if I receive more calls than my plan includes?</span><i class="fa fa-chevron-down"></i></button>
-        <div class="faq-answer"><p>Your plan is a flat monthly fee with no per-call overage charges. If your call volume regularly runs above your plan's range, we'll simply help you move to the plan that fits — never a surprise bill. And we never drop a call.</p></div>
+        <button class="faq-question"><span>Are there per-call fees or limits?</span><i class="fa fa-chevron-down"></i></button>
+        <div class="faq-answer"><p>No. Your plan is one flat monthly price with no per-call charges and no overage bills — you pay the same whether we answer 5 calls or 50. A light fair-use policy applies only to catch extreme outliers, and we will always talk to you first. We never drop a call.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-question"><span>How do I get started?</span><i class="fa fa-chevron-down"></i></button>
